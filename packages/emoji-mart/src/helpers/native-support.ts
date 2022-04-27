@@ -28,11 +28,11 @@ function noCountryFlags() {
   return true
 }
 
-function testEmoji(emoji) {
+function testEmoji(emoji: string) {
   const canvas = document.createElement('canvas')
   canvas.width = canvas.height = 25
 
-  const ctx = canvas.getContext('2d')
+  const ctx: CanvasRenderingContext2D = canvas.getContext('2d')!
   ctx.textBaseline = 'middle'
   ctx.textAlign = 'center'
   ctx.font = `50px "Segoe UI Emoji", "Segoe UI Symbol", "Segoe UI", "Apple Color Emoji", "Twemoji Mozilla", "Noto Color Emoji", "Android Emoji"`

@@ -2,7 +2,7 @@ import { Component, createRef } from 'preact'
 
 import { deepEqual, sleep } from '../../utils'
 import { Data, I18n } from '../../config'
-import { SearchIndex, Store, FrequentlyUsed } from '../../helpers'
+import { FrequentlyUsed, SearchIndex, Store } from '../../helpers'
 import Icons from '../../icons'
 
 import { Emoji } from '../Emoji'

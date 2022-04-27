@@ -3,7 +3,6 @@ import { render } from 'preact'
 import { init } from '../../config'
 import { SearchIndex } from '../../helpers'
 import { HTMLElement } from '../HTMLElement'
-import { Emoji } from '.'
 
 export default class EmojiElement extends HTMLElement {
   async connectedCallback() {
